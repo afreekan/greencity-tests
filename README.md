@@ -6,12 +6,13 @@
 
 ## Instuction to start tests:
 ### Method 1: Run tests individually
-``bash
+```bash
 python tests/test_1.py
 python tests/test_2.py
 python tests/test_3.py
+
 ### Method 2: Run all tests automatically
-``bash
+```bash
 python -m unittest discover -s tests -p "test_*.py"
 
 ## Author of the work 
